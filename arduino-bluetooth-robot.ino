@@ -3,17 +3,17 @@
 SoftwareSerial mySerial(3, 4); // RX, TX
 
 // Keyboard ASCII code direction mapping
-int buttonLeft[12] = {241, 247, 229, 242, 225, 243, 228, 230, 250, 248, 227}; // q, w, e, r, a, s, d, f, z, x, c
-int buttonRight[12] = {245, 233, 239, 240, 232, 234, 235, 236, 226, 238, 237}; // u, i, o, p, h, j, k, l, b, n, m
-int buttonStart[4] = {244, 249, 231}; // t, y, g
+int buttonLeft[12] = {113, 119, 101, 114, 97, 115, 100, 122, 120, 99}; // q, w, e, r, a, s, d, f, z, x, c
+int buttonRight[12] = {117, 105, 111, 112, 104, 106, 107, 108, 98, 110, 109}; // u, i, o, p, h, j, k, l, b, n, m
+int buttonStart[4] = {116, 121, 103}; // t, y, g
 int buttonStop = 32; // Space
 
 // Pin configuration
-const int RIGHT_MOTORPIN = 0;
-const int LEFT_MOTORPIN = 1;
+const int LEFT_MOTORPIN = 0;
+const int RIGHT_MOTORPIN = 1;
 
 // Other constants
-const int MOTOR_SPEED = 1023;
+const int MOTOR_SPEED = 64;
 const int DIRECTION_LEFT = 0;
 const int DIRECTION_RIGHT = 1;
 
