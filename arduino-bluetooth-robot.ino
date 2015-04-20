@@ -105,7 +105,6 @@ void turn(int direction) {
 
 /**
  * Turn left
- * int turnTime How long to turn for
  */
 void turnLeft() {
     turn(DIRECTION_LEFT);
@@ -113,7 +112,6 @@ void turnLeft() {
 
 /**
  * Turn right
- * int turnTime How long to turn for
  */
 void turnRight() {
     turn(DIRECTION_RIGHT);
